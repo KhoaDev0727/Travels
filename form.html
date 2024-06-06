@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="./css/styleform.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+      <div class="container">
+         
+         <div class="wrapper">
+            <form action="register">
+               <h1><strong>Welcome to paradise!</strong></h1>
+               <h3><strong>Book now</strong></h3>
+               
+               <div class="input-box">
+               <label for="fullname">Full Name</label>
+               <input type="text" name="fullname" id="fullname" required>
+               </div>
+               <div class="input-box">
+               <label for="phonenumber">Phone Number</label>               
+               <input type="number" name="phonenumber" id="phonenumber" required>
+               </div>
+               <div class="input-box">
+               <label for="email">Email</label>
+               <input type="text" name="email" id="email" required>
+               </div>
+               <div class="select-box1">
+               <label for="transport">Type transport: </label>
+               <input type="checkbox" name="car" id="car">
+               <label for="car">Cars</label>
+               <input type="checkbox" name="airplane" id="airplane">
+               <label for="airplane">Airplane</label>
+               <input type="checkbox" name="train" id="train">
+               <label for="train">Train</label>
+               </div>
+               <div class="select-box2">
+                   <label for="location">Location: </label>
+                   <select name="location" id="location">
+                       <option value="hoian">Hoi An</option>
+                       <option value="halong">Ha Long</option>
+                       <option value="danang">Da Nang</option>
+                       <option value="hue">Hue</option>
+                       <option value="nhatrang">Nha Trang</option>
+                       <option value="sapa">Sa Pa</option>
+                       <option value="dalat">Da Lat</option>
+                   </select>
+               </div>
+
+               <button type="submit" class="btn">Submit</button>
+
+            </form>
+         </div>       
+      </div>
+
+   
+</body>
+</html>

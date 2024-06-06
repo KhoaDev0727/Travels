@@ -1,0 +1,100 @@
+* {
+        margin: 0;
+        padding: 0;
+        font-family: 'Poppins', sans-serif;
+        box-sizing: border-box;
+    }
+
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    width: 100%;
+    background: url(../image/imgform.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.wrapper {
+    width: 450px;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, .2);
+    backdrop-filter: blur(20px);
+    box-shadow: 0 6px 10px black;
+    padding: 30px 40px;
+    border-radius: 35px;
+}
+
+.wrapper h1 {
+     font-size: 35px;
+     text-align: center;
+     color: white;
+}
+
+.wrapper h3 {
+    font-size: 50px;
+     text-align: center;
+     margin-top: 60px;
+     color: white;
+}
+
+.wrapper .input-box {
+    width: 100%;
+    height: 50px;
+    margin: 70px 0;
+    font-size: 22px;
+}
+
+.input-box input {
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid rgba(255, 255, 255, .2);
+    border-radius: 40px;
+    font-size: 16px;
+    color: white;
+    padding: 20px 45px 20px 20px;
+}
+
+.input-box input::placeholder {
+    color: white;
+}
+
+.select-box1 input {
+    margin-bottom: 50px;
+    text-transform: uppercase;
+}
+
+.select-box2 select {
+    margin-bottom: 45px;
+    text-transform: uppercase;
+}
+
+button {
+    width: 100%;
+    height: 50px;
+    text-transform: uppercase;
+    cursor: pointer;
+    border-radius: 40px;
+    border: none;
+}
+
+button, .btn {
+    font-size: 25px;
+    box-shadow: 0 4px 10px black;
+}
+
+.btn:hover {
+    color: rgb(248, 248, 248);
+    background-color: rgb(75, 77, 76);
+}
+
+.btn:active {
+    font-size: 18px;
+    transition: font-size .1s ease-in-out;
+}
+

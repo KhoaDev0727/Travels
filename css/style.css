@@ -1,0 +1,186 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+.banner {
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-image: url(../image/background.jpg);
+}
+
+.content {
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+}
+
+.content h2 {
+    color: darkgoldenrod;
+    margin-bottom: 20px;
+    font-size: 50px;
+}
+
+.content p {
+    margin: 20px auto;
+    font-family: sans-serif;
+    font-weight: 100;
+    line-height: 25px;
+    color: #fff;
+}
+
+.footP {
+    text-transform: uppercase;
+    font-size: 25px;
+}
+
+.navbar {
+    width: 85%;
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 120px;
+    cursor: pointer;
+}
+
+.navbar ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.navbar ul li::after {
+    content: '';
+    height: 3px;
+    width: 0;
+    background: #009688;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+}
+
+.navbar ul li:hover::after {
+    width: 100%;
+}
+
+
+.btn {
+    width: 120px;
+    height: 5ex;
+    background-image: linear-gradient(135deg, #f34079 40%, #fc894d);
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+    margin-right: 20px;
+    margin-top: 25px;
+}
+
+.btn:hover {
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.1), 0px -2px 2px rgba(255, 255, 255, 0.25) inset, 0 2px 2px rgba(255, 255, 255, 0.4) inset;
+    background: #0ebc0e;
+    background: linear-gradient(#0ebc0e, #0c960c);
+    border-color: #064f06;
+}
+
+.btn:active {
+    box-shadow: 2px 2px 2px 4px #0ebc0e;
+}
+
+.btn2 {
+    width: 120px;
+    height: 5ex;
+    background-image: linear-gradient(135deg, #06bb6f 40%, #eb5605);
+    border-radius: 5px;
+    border: none;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+    margin-right: 20px;
+}
+
+.btn2, .btn2-click {
+    text-decoration: none;
+    color: white;
+}
+
+.btn2:hover {
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.1), 0px -2px 2px rgba(255, 255, 255, 0.25) inset, 0 2px 2px rgba(255, 255, 255, 0.4) inset;
+    background: #0ebc0e;
+    background: linear-gradient(#0ebc0e, #0c960c);
+    border-color: #064f06;
+}
+
+.btn2:active {
+    box-shadow: 2px 2px 2px 4px #0ebc0e;
+}
+
+.btn3 {
+    cursor: pointer;
+    width: 120px;
+    height: 5ex;
+    background-image: linear-gradient(135deg, #3907ee 40%, #9b0b9b);
+    border-radius: 5px;
+    border: none;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+}
+
+.btn3, .btn3-click {
+    text-decoration: none;
+    color: white;
+}
+
+.btn3:hover {
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.1), 0px -2px 2px rgba(255, 255, 255, 0.25) inset, 0 2px 2px rgba(255, 255, 255, 0.4) inset;
+  background: #0ebc0e;
+  background: linear-gradient(#0ebc0e, #0c960c);
+  border-color: #064f06;
+}
+
+
+.btn3:active {
+    box-shadow: 2px 2px 2px 4px #0ebc0e;
+}
+
+footer {
+    background-image: linear-gradient(135deg, #08ce7b 30%, rgba(2, 126, 105, 0.333), #04eb7f);
+    padding: 10px;
+    text-align: center;
+    color: black;
+    border-top: 3px solid #feffff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
